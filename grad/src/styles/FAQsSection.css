@@ -1,0 +1,28 @@
+.faqs-section {
+    padding: 4rem 2rem;
+    background-color: rgb(248, 250, 252);
+  }
+  
+  .faqs-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9AA6B2;
+    margin-bottom: 2rem;
+  }
+  
+  .faqs-section div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .faqs-section h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #BCCCDC;
+  }
+  
+  .faqs-section p {
+    color: #9AA6B2;
+    margin-top: 0.5rem;
+  }
+  

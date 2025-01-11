@@ -1,0 +1,106 @@
+/* General Styles */
+.severity-page {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #4a90e2;
+    transition: width 0.3s ease;
+  }
+  
+  /* Button Group */
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .next-btn {
+    background: #4a90e2;
+    color: white;
+  }
+  
+  .next-btn:hover {
+    background: #357ab7;
+  }
+  
+  .prev-btn {
+    background: #ccc;
+    color: #333;
+  }
+  
+  .prev-btn:hover {
+    background: #bbb;
+  }
+  
+  /* Result Section */
+  .result {
+    margin-top: 20px;
+  }
+  
+  .result span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  

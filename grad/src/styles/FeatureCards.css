@@ -1,0 +1,70 @@
+/* Feature Cards Section */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  gap: 20px; /* Spacing between cards */
+  position: relative;
+  margin-top: -50px; /* Overlap with hero section */
+  z-index: 1; /* Ensure it appears above the hero */
+  width: 80%; /* Adjust width for better alignment */
+  margin-left: auto;
+  margin-right: auto; /* Center the cards section */
+  background-color: transparent; /* Remove background */
+  border-radius: 0; /* Remove rounded corners for the section */
+  box-shadow: none; /* Remove shadow */
+  padding: 0; /* Remove internal padding */
+}
+
+/* Individual Feature Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd; /* Optional: Card border */
+  border-radius: 10px; /* Rounded corners for cards */
+  background-color: #fff; /* Default white background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  background-color: #4a90e2; /* Blue background on hover */
+  color: #fff; /* White text for contrast */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  border: 1px solid #4a90e2; /* Match border color with background */
+}
+
+/* Image Styling */
+.card img {
+  width: 120px; /* Larger image size */
+  height: 120px; /* Maintain consistent height */
+  margin-bottom: 15px;
+  object-fit: contain; /* Ensure entire image is displayed */
+  border-radius: 10px; /* Optional: Rounded corners for images */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+}
+
+/* Image Hover Effect */
+.card:hover img {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  filter: none; /* Keep the original image appearance */
+}
+
+/* Text Styling */
+.card h3 {
+  font-size: 1.2rem; /* Text size for titles */
+  color: #333; /* Default text color */
+  text-align: center;
+  margin: 0;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Text Hover Effect */
+.card:hover h3 {
+  color: #fff; /* Change text color to white on hover */
+}

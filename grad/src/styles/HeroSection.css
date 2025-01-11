@@ -1,0 +1,73 @@
+/* Hero Section Styles */
+.hero {
+  position: relative; /* Allows for absolute positioning of child elements */
+  width: 100vw; /* Full width of the viewport */
+  height: 70vh; /* Smaller height for the hero section */
+  background: url('/images/home1.jpg') no-repeat center center; /* Add your image here */
+  background-size: cover; /* Ensures the image covers the section proportionally */
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+/* Text Content */
+.hero-text {
+  position: relative; /* Ensures the text appears above the background image */
+  z-index: 1; /* Brings text above the background */
+  color: #fff; /* White text for contrast */
+  text-align: center; /* Center-align the text */
+  padding: 20px; /* Add spacing around the text */
+}
+
+/* Heading Styles */
+.hero-text h1 {
+  font-size: 3rem; /* Large font for the headline */
+  font-weight: bold; /* Bold font for emphasis */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Paragraph Styles */
+.hero-text p {
+  font-size: 1.2rem; /* Slightly smaller font for the subheading */
+  margin-bottom: 20px; /* Space below the paragraph */
+  color: #e0e0e0; /* Lighter text color for subtlety */
+}
+
+/* Button Styles */
+.hero-text button {
+  padding: 10px 25px; /* Adjusted padding for a balanced look */
+  font-size: 1rem; /* Font size for the button text */
+  color: #fff; /* White text for contrast */
+  background-color: #4a90e2; /* Primary button color */
+  border: none; /* Remove button border */
+  border-radius: 25px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button Hover Effect */
+.hero-text button:hover {
+  background-color: #357ab7; /* Darker shade on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh; /* Reduce height for smaller screens */
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem; /* Smaller font for the headline */
+  }
+
+  .hero-text p {
+    font-size: 1rem; /* Adjust subheading font size */
+  }
+
+  .hero-text button {
+    font-size: 0.9rem; /* Adjust button font size */
+    padding: 8px 20px; /* Adjust button padding */
+  }
+}

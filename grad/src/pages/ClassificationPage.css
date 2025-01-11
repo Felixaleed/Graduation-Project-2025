@@ -1,0 +1,73 @@
+.classification-page {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  .upload-form {
+    margin-bottom: 20px;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background: #357ab7;
+  }
+  
+  .preview img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #357ab7;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .result h2 {
+    color: #4a90e2;
+  }
+  
+  .result p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
